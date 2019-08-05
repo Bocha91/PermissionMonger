@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:shrinkColumns="0"
+    android:stretchColumns="0">
+
+    <TableRow>
+
+      <TextView
+        style="@style/TableText.Title"
+        android:text="@string/label_access_fine_location"/>
+
+      <TextView
+        android:id="@+id/location_value"
+        style="@style/TableText.Value"/>
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+        style="@style/TableText.Title"
+        android:text="@string/label_camera"/>
+
+      <TextView
+        android:id="@+id/camera_value"
+        style="@style/TableText.Value"/>
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+        style="@style/TableText.Title"
+        android:text="@string/label_internet"/>
+
+      <TextView
+        android:id="@+id/internet_value"
+        style="@style/TableText.Value"/>
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+        style="@style/TableText.Title"
+        android:text="@string/label_contacts"/>
+
+      <TextView
+        android:id="@+id/contacts_value"
+        style="@style/TableText.Value"/>
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+        style="@style/TableText.Title"
+        android:text="@string/label_storage"/>
+
+      <TextView
+        android:id="@+id/storage_value"
+        style="@style/TableText.Value"/>
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+          style="@style/TableText.Title"
+          android:text="@string/access_location_extra_commands"/>
+
+      <TextView
+          android:id="@+id/extra_value"
+          style="@style/TableText.Value"/>
+    </TableRow>
+    <TableRow>
+      <TextView
+          style="@style/TableText.Title"
+          android:text="@string/call_phone"/>
+      <TextView
+          android:id="@+id/phone1_value"
+          style="@style/TableText.Value"/>
+    </TableRow>
+    <TableRow>
+      <TextView
+          style="@style/TableText.Title"
+          android:text="@string/read_phone_state"/>
+      <TextView
+          android:id="@+id/phone2_value"
+          style="@style/TableText.Value"/>
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+          style="@style/TableText.Title"
+          android:text="@string/read_sms" />
+
+      <TextView
+          android:id="@+id/sms_value"
+          style="@style/TableText.Value"/>
+    </TableRow>
+
+
+
+
+
+  </TableLayout>
+</ScrollView>

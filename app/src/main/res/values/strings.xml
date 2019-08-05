@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Permission Monger</string>
+    <string name="label_access_fine_location">ACCESS_FINE_LOCATION</string>
+    <string name="label_camera">CAMERA</string>
+    <string name="label_internet">INTERNET</string>
+    <string name="label_contacts">READ_CONTACTS</string>
+    <string name="label_storage">WRITE_EXTERNAL_STORAGE</string>
+
+    <string name="menu_location">Location</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_internet">Internet</string>
+    <string name="menu_contacts">Contacts</string>
+
+    <string name="toast_bzzzt">Sorry, but we cannot do this, because you did not give us permission!</string>
+
+    <string name="toast_location">No matter where you go, there you are</string>
+    <string name="toast_camera">Smile!</string>
+    <string name="toast_internet">internet available</string>
+    <string name="toast_contacts">A friend slapped you with a trout</string>
+
+    <string name="write_external_storage">WRITE_EXTERNAL_STORAGE</string>
+    <string name="access_location_extra_commands">ACCESS_LOCATION_EXTRA_COMMANDS</string>
+    <string name="call_phone">CALL_PHONE</string>
+    <string name="read_phone_state">READ_PHONE_STATE</string>
+    <string name="read_sms">READ_SMS</string>
+
+    <string name="toast_storage">External Storage available!</string>
+    <string name="toast_extra">Extra available!</string>
+    <string name="toast_phone1">Phone Call available!</string>
+    <string name="toast_phone2">Phone State available!</string>
+    <string name="toast_sms">SMS available!</string>
+
+    <string name="menu_storage">Storage</string>
+    <string name="menu_extra">Extra</string>
+    <string name="menu_phone1">Call phone</string>
+    <string name="menu_phone2">Read phone state</string>
+    <string name="menu_sms">SMS</string>
+
+</resources>
